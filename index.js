@@ -14,13 +14,11 @@ function runGregLab() {
   
   console.log(findBusiestHour());
   
-  hourlyTraffic[11] = 5;  // pretend that 11am is busiest hour
+  hourlyTraffic[11] = 12;  // pretend that 11am is busiest hour
   
   console.log(findBusiestHour());
   
 }
-
-
 
 function findBusiestHour() {
   var i;
